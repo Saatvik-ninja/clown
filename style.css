@@ -1,0 +1,20 @@
+body{
+    background-size:cover;
+    background-position:center;
+}
+.btn-warning:hover{
+    background-color: #df4759;
+}
+canvas{
+    animation-name:example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+from{
+    box-shadow:1px 1px 40px #00ff26;
+}
+    to{
+        box-shadow:1px 1px 40px #8b12db;
+    }
+}
